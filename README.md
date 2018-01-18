@@ -3,7 +3,7 @@ Built a simple SpringBoot project in Docker .
 
 ## how to use
 
-* first of all , you need download and Docker on your local system .
+* first of all , you need to star the project , than download and run Docker on your local system .
 
     My local operation system is MacOS 
     
