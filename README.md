@@ -1,5 +1,5 @@
 # docker-demo
-Built a simple J2E demo in SpringBoot , and run in docker .
+Built a simple SpringBoot project in Docker .
 
 ## how to use
 
@@ -9,7 +9,22 @@ Built a simple J2E demo in SpringBoot , and run in docker .
     
     For how to use Docker on Mac , plz read My blog : [MacOS安装Docker](http://www.liumapp.com/articles/2017/12/27/1514347974172.html)
     
+* built project by run command :  
+
+        docker build -t docker-demo ../docker-demo 
+         
+* start project by run command : 
+
+        docker run -d -p 8080:8080 docker-demo
+        
+  than you can see this in your docker pannel:
+  
+  
     
+* open your browser and visite : 
+
+        http://127.0.0.1:8080
+        
 ## attention
 
 * You can view Dockerfile's syntax in [here](https://docs.docker.com/reference/builder/). 
